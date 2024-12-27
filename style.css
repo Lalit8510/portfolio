@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+/* navbar */
+#navbarSupportedContent .ms-10{
+    margin-left: 390px !important;
+}
+.navbar-brand img{
+    width: 250px;
+}
+#navbarSupportedContent ul li a:hover{
+    background-color: rgb(3, 78, 123);
+    margin-right: 10px;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 20px;
+
+}
+#navbarSupportedContent ul li  .active{
+    background-color: rgb(3, 78, 123);
+    margin-right: 10px;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 20px;
+
+}
+#navbarSupportedContent ul li a{
+    background-color: #f6f6f6;
+    margin-right: 10px;
+    color: rgb(3, 78, 123);
+    border: 1px solid rgb(3, 78, 123);
+    padding: 5px 25px;
+    border-radius: 20px;
+
+}
+body{
+    background-image: url("Assets/page-bg-1.jpg");
+    background-size: cover;
+    background-position: fixed;
+    
+}
+/* container */
+
+.photo img{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(3, 78, 123);
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+/* .photo img .circle{
+    width: 300px;
+    height: 300px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+} */
+
+.photo{
+    padding-top: 85px;
+    position: relative;
+   
+}
+.photo-details{
+   text-align: center;
+
+}
+.photo-details button{
+    background-color: rgb(3, 78, 123);
+    color: #f6f6f6;
+}
+.photo-details button:hover{
+    border: 2px solid rgb(3, 78, 123);
+    color: rgb(3, 78, 123);
+}
+.social-media i{
+    width: 40px;
+    background-color: #f6f6f6;
+    padding: 10px;
+    border-radius: 5px;
+}
+.social-media .fa-square-whatsapp{
+    color: green;
+}
+.social-media .fa-square-instagram{
+    color: rgb(170, 52, 71);
+}
+.social-media .fa-linkedin{
+    color: rgb(57, 57, 233);
+}
+.social-media .fa-phone{
+    color: rgb(20, 20, 255);
+}
+
+/* about --------------------------------------------- */
+.about{
+    background-color: #f6f6f6;
+    padding: 40px 60px 100px 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+
+}
+.about h2{
+    font-family: pacifico;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.about h4{
+    font-weight: bold;
+}
+/* .about img{
+    border-radius: 30px;
+} */
+.about a{
+    text-decoration: none;
+}
+.about .card-text{
+    text-align: center;
+}
+.about p{
+    font-family: popins,scan-serif;
+    font-size: 20px;
+}
+.btn-design{
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+.btn-design a{
+    color: black;
+    text-decoration: none;
+}
+.tools {
+    background-color: #6161ff;
+    
+}
+.card{
+   
+    color: black;
+    box-shadow: 0px 15px 10px 0px rgba(194, 185, 185, 0.18);
+}
+.card .card-header{
+    font-weight: bold;
+}
+.img img{
+    box-shadow: 0px 15px 10px 0px rgba(194, 185, 185, 0.18)!important;
+}
+.contact button{
+    background-color: rgb(3, 78, 123);
+    color: #f6f6f6;
+}
+.contact button:hover{
+    border: 2px solid rgb(3, 78, 123);
+    color: rgb(3, 78, 123);
+}
+/* about end */
+/* contact us */
+form .btn-custom{
+    background-color: rgb(3, 78, 123);
+    color: #f6f6f6;
+}
+form .btn-custom:hover{
+    border: 2px solid rgb(3, 78, 123);
+    color: rgb(3, 78, 123);
+}
+/* contact us end */

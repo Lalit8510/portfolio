@@ -1,0 +1,9 @@
+@media screen and (max-width: 562px) {
+    #navbarSupportedContent .ms-10{
+        margin-left: auto!important;
+    }
+    .navbar-brand img{
+        width: 150px;
+        margin-left: -50px;
+    }
+}
